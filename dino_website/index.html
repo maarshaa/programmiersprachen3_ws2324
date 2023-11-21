@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="icon" href="./images/Logo.png" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Dino Quartet🦕</title>
+	</head>
+
+	<body>
+		<header>
+			<div id="menu" class="mask">
+				<button
+					id="sortByGroup"
+					class="selected"
+					onclick="sortDinosaurs('Group', 'sortByGroup')"
+				>
+					Group
+				</button>
+				<button
+					id="sortByEggSize"
+					onclick="sortDinosaurs('egg_size', 'sortByEggSize')"
+				>
+					Egg Size
+				</button>
+				<button
+					id="sortByToothSize"
+					onclick="sortDinosaurs('tooth_size', 'sortByToothSize')"
+				>
+					Tooth Size
+				</button>
+				<button id="sortByIq" onclick="sortDinosaurs('iq', 'sortByIq')">
+					Intelligence
+				</button>
+				<button
+					id="sortByHeight"
+					onclick="sortDinosaurs('height', 'sortByHeight')"
+				>
+					Height
+				</button>
+
+				<button
+					id="sortByYears"
+					onclick="sortDinosaurs('years', 'sortByYears')"
+				>
+					Years
+				</button>
+				<button
+					id="sortByFootprint"
+					onclick="sortDinosaurs('footprint', 'sortByFootprint')"
+				>
+					Footprint
+				</button>
+			</div>
+			<img
+				id="logo"
+				src="images/Logo.png"
+				alt="Logo der Dino Quartett Website"
+			/>
+			<div id="title">DINO QUARTET WEBSITE</div>
+		</header>
+
+		<div id="dinosaurCards">
+			<div id="number"></div>
+			<div id="table"></div>
+
+			<script src="script.js"></script>
+		</div>
+	</body>
+</html>
