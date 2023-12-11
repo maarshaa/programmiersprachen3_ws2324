@@ -1,12 +1,16 @@
 <script>
-	import Dancefloor from "./dancefloor.svelte";
-  import Lamp from "./lamp.svelte";
+  import Dancefloor from "./dancefloor.svelte";
 </script>
 
 <main>
-  <Dancefloor w={400} h={400} lampCount={1}/>
-  <Dancefloor w={200} h={200} lampCount={20}/>
-  <Dancefloor w={100} h={100} lampCount={5}/>
+  {#each Array.from({ length: Math.floor(Math.random() * 8) + 1 }) as _, i}
+    <Dancefloor
+      w={Math.floor(Math.random() * 400) + 100}
+      h={Math.floor(Math.random() * 400) + 100}
+      lampCount={Math.floor(Math.random() * 50) + 10}
+      key={i}
+    />
+  {/each}
 </main>
 
 <style>
