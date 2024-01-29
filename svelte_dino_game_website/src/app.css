@@ -130,7 +130,7 @@ footer {
 		width: 100%;
 	}
 	nav {
-		margin-top: 0rem;
+		margin-bottom: 2rem;
 		flex-direction: column;
 		align-self: center;
 	}
@@ -141,7 +141,7 @@ footer {
 	#title {
 		align-self: center;
 		font-size: 2rem;
-		margin-bottom: -3rem;
+		margin-bottom: -1.5rem;
 	}
 	.menu {
 		padding-right: 0;

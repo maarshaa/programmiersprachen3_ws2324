@@ -76,27 +76,27 @@
 	<footer>
 		<div class="legend">
 			<img src="images/height.png" alt="height" />
-			Größe in Metern
+			Höhe in Metern
 		</div>
 		<div class="legend">
 			<img src="images/footprint.png" alt="footprint" />
-			Fußabdruck in Metern
+			Fußabdruck in cm
 		</div>
 		<div class="legend">
 			<img src="images/years.png" alt="years since extinction" />
-			Jahre seit Aussterben
+			Jahre seit Aussterben in Millionen
 		</div>
 		<div class="legend">
 			<img src="images/iq.png" alt="eq times 100" />
-			Intelligenzquotient
+			Intelligenzquotient (1-50)
 		</div>
 		<div class="legend">
 			<img src="images/egg_size.png" alt="egg size" />
-			Eigröße in Metern
+			Eigröße in cm
 		</div>
 		<div class="legend">
 			<img src="images/tooth_size.png" alt="number of teeth" />
-			Anzahl der Zähne
+			Größe des größten Zahns in cm
 		</div>
 	</footer>
 </div>
